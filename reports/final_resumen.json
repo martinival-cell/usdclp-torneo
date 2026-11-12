@@ -1,0 +1,864 @@
+{
+  "regla": "calendario adaptativo (lunes / pre fin de semana) con sizing kappa",
+  "k1": 0.0,
+  "k3": 0.25,
+  "costo_pb": 6.0,
+  "validacion": {
+    "resumen": {
+      "estrategia": {
+        "jornadas": 2878,
+        "bruto_%": 54.28270545215248,
+        "con_carry_%": 47.68845545215248,
+        "costos_%": 18.66,
+        "neto_%": 29.02845545215248,
+        "total_%": 77.0131776743747,
+        "neto_anual_%": 2.541754959674227,
+        "vol_anual_%": 5.658660816966952,
+        "sharpe_neto_anual": 0.44917959246700534,
+        "sortino_anual": 0.6637656882403846,
+        "max_drawdown_%": -13.87289020130871,
+        "calmar": 0.18321740623554048,
+        "acierto_direccional_operado": 0.5878594249201278,
+        "acierto_direccional_total": 0.5347124824684432,
+        "acierto_ponderado_exposicion": 0.5878594249201278,
+        "ganancia_media_pb": 79.79292537641648,
+        "perdida_media_pb": -74.53072497105146,
+        "razon_ganancia_perdida": 1.070604444105554,
+        "n_operaciones": 311,
+        "n_episodios": 156,
+        "jornadas_operadas": 313,
+        "turnover_unidades": 311.0,
+        "dias_fuera_%": 89.12439193884643,
+        "dias_\u00b13_%": 0.0
+      },
+      "comprar_siempre": {
+        "jornadas": 2878,
+        "bruto_%": 66.97079677747654,
+        "con_carry_%": 38.91538011080987,
+        "costos_%": 0.060000000000000005,
+        "neto_%": 38.85538011080987,
+        "total_%": 86.84010233303209,
+        "neto_anual_%": 3.402208404421156,
+        "vol_anual_%": 12.558775907605577,
+        "sharpe_neto_anual": 0.2709028674013351,
+        "sortino_anual": 0.39074273711717844,
+        "max_drawdown_%": -33.42802247858221,
+        "calmar": 0.1017771364309988,
+        "acierto_direccional_operado": 0.5034746351633078,
+        "acierto_direccional_total": 0.5347124824684432,
+        "acierto_ponderado_exposicion": 0.5034746351633078,
+        "ganancia_media_pb": 60.14691487550694,
+        "perdida_media_pb": -57.039569196950104,
+        "razon_ganancia_perdida": 1.0544770187135806,
+        "n_operaciones": 1,
+        "n_episodios": 1,
+        "jornadas_operadas": 2878,
+        "turnover_unidades": 1.0,
+        "dias_fuera_%": 0.0,
+        "dias_\u00b13_%": 0.0
+      },
+      "no_operar": {
+        "jornadas": 2878,
+        "bruto_%": 0.0,
+        "con_carry_%": 0.0,
+        "costos_%": 0.0,
+        "neto_%": 0.0,
+        "total_%": 47.984722222222224,
+        "neto_anual_%": 0.0,
+        "vol_anual_%": 0.0,
+        "sharpe_neto_anual": 0.0,
+        "sortino_anual": NaN,
+        "max_drawdown_%": 0.0,
+        "calmar": NaN,
+        "acierto_direccional_operado": NaN,
+        "acierto_direccional_total": 0.5347124824684432,
+        "acierto_ponderado_exposicion": NaN,
+        "ganancia_media_pb": NaN,
+        "perdida_media_pb": NaN,
+        "razon_ganancia_perdida": NaN,
+        "n_operaciones": 0,
+        "n_episodios": 0,
+        "jornadas_operadas": 0,
+        "turnover_unidades": 0.0,
+        "dias_fuera_%": 100.0,
+        "dias_\u00b13_%": 0.0
+      },
+      "intensidad_constante": {
+        "jornadas": 2878,
+        "bruto_%": 191.67575121004379,
+        "con_carry_%": 187.75780676559936,
+        "costos_%": 142.13999999999996,
+        "neto_%": 45.6178067655994,
+        "total_%": 93.6025289878216,
+        "neto_anual_%": 3.99433193361051,
+        "vol_anual_%": 12.482617355170902,
+        "sharpe_neto_anual": 0.3199915386299865,
+        "sortino_anual": 0.45440648056786864,
+        "max_drawdown_%": -43.456393880136716,
+        "calmar": 0.09191586270659842,
+        "acierto_direccional_operado": 0.5347124824684432,
+        "acierto_direccional_total": 0.5347124824684432,
+        "acierto_ponderado_exposicion": 0.5347124824684432,
+        "ganancia_media_pb": 59.235850751488385,
+        "perdida_media_pb": -57.732002287461,
+        "razon_ganancia_perdida": 1.0260487841135213,
+        "n_operaciones": 1211,
+        "n_episodios": 27,
+        "jornadas_operadas": 2852,
+        "turnover_unidades": 2369.0,
+        "dias_fuera_%": 0.9034051424600417,
+        "dias_\u00b13_%": 0.0
+      }
+    },
+    "DM": {
+      "comprar_siempre": {
+        "T": 2878,
+        "media_dif": 3.4144977966147975e-05,
+        "DM": 0.26132637485237964,
+        "DM_HLN": 0.26128097021736535,
+        "p_valor": 0.793894542403027,
+        "lags": 8
+      },
+      "no_operar": {
+        "T": 2878,
+        "media_dif": -0.00010086329205056456,
+        "DM": -1.5780338475710953,
+        "DM_HLN": -1.5777596691574942,
+        "p_valor": 0.1147307709120653,
+        "lags": 8
+      },
+      "intensidad_constante": {
+        "T": 2878,
+        "media_dif": 5.7641943410169944e-05,
+        "DM": 0.42426379709002027,
+        "DM_HLN": 0.4241900825907948,
+        "p_valor": 0.6714589079330997,
+        "lags": 8
+      }
+    },
+    "bootstrap": {
+      "comprar_siempre": {
+        "observado_%": -9.826924658657388,
+        "ic95_%": [
+          -83.15840145706159,
+          62.14664838840018
+        ],
+        "p_mayor_que_0": 0.4008,
+        "B": 5000,
+        "bloque_medio": 10
+      },
+      "no_operar": {
+        "observado_%": 29.02845545215248,
+        "ic95_%": [
+          -4.208141042221052,
+          64.59674362713464
+        ],
+        "p_mayor_que_0": 0.9532,
+        "B": 5000,
+        "bloque_medio": 10
+      },
+      "intensidad_constante": {
+        "observado_%": -16.589351313446908,
+        "ic95_%": [
+          -91.83368842021899,
+          58.58419626977408
+        ],
+        "p_mayor_que_0": 0.335,
+        "B": 5000,
+        "bloque_medio": 10
+      }
+    },
+    "sensibilidad_costos": [
+      {
+        "costo_pb": 0,
+        "neto_%": 47.69,
+        "neto_anual_%": 4.18,
+        "sharpe": 0.74,
+        "max_dd_%": -13.03
+      },
+      {
+        "costo_pb": 2,
+        "neto_%": 41.47,
+        "neto_anual_%": 3.63,
+        "sharpe": 0.64,
+        "max_dd_%": -13.31
+      },
+      {
+        "costo_pb": 5,
+        "neto_%": 32.14,
+        "neto_anual_%": 2.81,
+        "sharpe": 0.5,
+        "max_dd_%": -13.73
+      },
+      {
+        "costo_pb": 6,
+        "neto_%": 29.03,
+        "neto_anual_%": 2.54,
+        "sharpe": 0.45,
+        "max_dd_%": -13.87
+      },
+      {
+        "costo_pb": 7,
+        "neto_%": 25.92,
+        "neto_anual_%": 2.27,
+        "sharpe": 0.4,
+        "max_dd_%": -14.01
+      },
+      {
+        "costo_pb": 10,
+        "neto_%": 16.59,
+        "neto_anual_%": 1.45,
+        "sharpe": 0.26,
+        "max_dd_%": -14.43
+      }
+    ],
+    "posiciones": {
+      "0": 2565,
+      "1": 313
+    }
+  },
+  "final_walk_forward": {
+    "resumen": {
+      "estrategia": {
+        "jornadas": 341,
+        "bruto_%": 11.418925057182605,
+        "con_carry_%": 10.836369501627049,
+        "costos_%": 8.279999999999998,
+        "neto_%": 2.5563695016270525,
+        "total_%": 8.911925057182609,
+        "neto_anual_%": 1.889164558387147,
+        "vol_anual_%": 7.53269470710262,
+        "sharpe_neto_anual": 0.2507953171931744,
+        "sortino_anual": 0.37602341520578375,
+        "max_drawdown_%": -5.779508824743735,
+        "calmar": 0.32687285644397523,
+        "acierto_direccional_operado": 0.5401459854014599,
+        "acierto_direccional_total": 0.5368731563421829,
+        "acierto_ponderado_exposicion": 0.5401459854014599,
+        "ganancia_media_pb": 59.6113810065893,
+        "perdida_media_pb": -55.72896126633422,
+        "razon_ganancia_perdida": 1.0696661063123105,
+        "n_operaciones": 138,
+        "n_episodios": 69,
+        "jornadas_operadas": 137,
+        "turnover_unidades": 138.0,
+        "dias_fuera_%": 59.82404692082112,
+        "dias_\u00b13_%": 0.0
+      },
+      "comprar_siempre": {
+        "jornadas": 341,
+        "bruto_%": 3.8875596759478825,
+        "con_carry_%": 2.8639763426145466,
+        "costos_%": 0.059999999999999984,
+        "neto_%": 2.803976342614546,
+        "total_%": 9.159531898170103,
+        "neto_anual_%": 2.0721467399966733,
+        "vol_anual_%": 11.823722693137933,
+        "sharpe_neto_anual": 0.17525332704219068,
+        "sortino_anual": 0.2565811502016256,
+        "max_drawdown_%": -14.28273209364532,
+        "calmar": 0.14508055786599916,
+        "acierto_direccional_operado": 0.501466275659824,
+        "acierto_direccional_total": 0.5368731563421829,
+        "acierto_ponderado_exposicion": 0.501466275659824,
+        "ganancia_media_pb": 57.23022412069899,
+        "perdida_media_pb": -55.91747464928278,
+        "razon_ganancia_perdida": 1.0234765514653485,
+        "n_operaciones": 1,
+        "n_episodios": 1,
+        "jornadas_operadas": 341,
+        "turnover_unidades": 1.0,
+        "dias_fuera_%": 0.0,
+        "dias_\u00b13_%": 0.0
+      },
+      "no_operar": {
+        "jornadas": 341,
+        "bruto_%": 0.0,
+        "con_carry_%": 0.0,
+        "costos_%": 0.0,
+        "neto_%": 0.0,
+        "total_%": 6.355555555555556,
+        "neto_anual_%": 0.0,
+        "vol_anual_%": 0.0,
+        "sharpe_neto_anual": 0.0,
+        "sortino_anual": NaN,
+        "max_drawdown_%": 0.0,
+        "calmar": NaN,
+        "acierto_direccional_operado": NaN,
+        "acierto_direccional_total": 0.5368731563421829,
+        "acierto_ponderado_exposicion": NaN,
+        "ganancia_media_pb": NaN,
+        "perdida_media_pb": NaN,
+        "razon_ganancia_perdida": NaN,
+        "n_operaciones": 0,
+        "n_episodios": 0,
+        "jornadas_operadas": 0,
+        "turnover_unidades": 0.0,
+        "dias_fuera_%": 100.0,
+        "dias_\u00b13_%": 0.0
+      },
+      "intensidad_constante": {
+        "jornadas": 341,
+        "bruto_%": 20.731282186486588,
+        "con_carry_%": 20.561476630931036,
+        "costos_%": 16.979999999999997,
+        "neto_%": 3.581476630931041,
+        "total_%": 9.9370321864866,
+        "neto_anual_%": 2.6467217331220594,
+        "vol_anual_%": 11.702703574330659,
+        "sharpe_neto_anual": 0.22616327212863202,
+        "sortino_anual": 0.31687658728365986,
+        "max_drawdown_%": -13.66976482419754,
+        "calmar": 0.19361867355881382,
+        "acierto_direccional_operado": 0.5368731563421829,
+        "acierto_direccional_total": 0.5368731563421829,
+        "acierto_ponderado_exposicion": 0.5368731563421829,
+        "ganancia_media_pb": 56.5731875703474,
+        "perdida_media_pb": -55.38016316331131,
+        "razon_ganancia_perdida": 1.0215424502004078,
+        "n_operaciones": 144,
+        "n_episodios": 3,
+        "jornadas_operadas": 339,
+        "turnover_unidades": 283.0,
+        "dias_fuera_%": 0.5865102639296188,
+        "dias_\u00b13_%": 0.0
+      }
+    },
+    "DM": {
+      "comprar_siempre": {
+        "T": 341,
+        "media_dif": 7.261197682917786e-06,
+        "DM": 0.025134119970932175,
+        "DM_HLN": 0.025097239364167575,
+        "p_valor": 0.9799921254001185,
+        "lags": 5
+      },
+      "no_operar": {
+        "T": 341,
+        "media_dif": -7.496684755504553e-05,
+        "DM": -0.36458145954232896,
+        "DM_HLN": -0.3640464901278997,
+        "p_valor": 0.716049576208484,
+        "lags": 5
+      },
+      "intensidad_constante": {
+        "T": 341,
+        "media_dif": 3.0061792648210725e-05,
+        "DM": 0.10285951517288039,
+        "DM_HLN": 0.10270858403483077,
+        "p_valor": 0.918254810467606,
+        "lags": 5
+      }
+    },
+    "bootstrap": {
+      "comprar_siempre": {
+        "observado_%": -0.24760684098749652,
+        "ic95_%": [
+          -19.51780040929396,
+          18.168356248619755
+        ],
+        "p_mayor_que_0": 0.4972,
+        "B": 5000,
+        "bloque_medio": 10
+      },
+      "no_operar": {
+        "observado_%": 2.5563695016270525,
+        "ic95_%": [
+          -9.6263484420977,
+          14.605308702654582
+        ],
+        "p_mayor_que_0": 0.6584,
+        "B": 5000,
+        "bloque_medio": 10
+      },
+      "intensidad_constante": {
+        "observado_%": -1.0251071293039857,
+        "ic95_%": [
+          -20.078185428375416,
+          18.51926596429402
+        ],
+        "p_mayor_que_0": 0.4574,
+        "B": 5000,
+        "bloque_medio": 10
+      }
+    },
+    "sensibilidad_costos": [
+      {
+        "costo_pb": 0,
+        "neto_%": 10.84,
+        "neto_anual_%": 8.01,
+        "sharpe": 1.06,
+        "max_dd_%": -4.24
+      },
+      {
+        "costo_pb": 2,
+        "neto_%": 8.08,
+        "neto_anual_%": 5.97,
+        "sharpe": 0.79,
+        "max_dd_%": -4.48
+      },
+      {
+        "costo_pb": 5,
+        "neto_%": 3.94,
+        "neto_anual_%": 2.91,
+        "sharpe": 0.39,
+        "max_dd_%": -5.22
+      },
+      {
+        "costo_pb": 6,
+        "neto_%": 2.56,
+        "neto_anual_%": 1.89,
+        "sharpe": 0.25,
+        "max_dd_%": -5.78
+      },
+      {
+        "costo_pb": 7,
+        "neto_%": 1.18,
+        "neto_anual_%": 0.87,
+        "sharpe": 0.12,
+        "max_dd_%": -6.34
+      },
+      {
+        "costo_pb": 10,
+        "neto_%": -2.96,
+        "neto_anual_%": -2.19,
+        "sharpe": -0.29,
+        "max_dd_%": -8.39
+      }
+    ],
+    "posiciones": {
+      "0": 204,
+      "1": 137
+    }
+  },
+  "final_congelado": {
+    "resumen": {
+      "estrategia": {
+        "jornadas": 341,
+        "bruto_%": 11.418925057182605,
+        "con_carry_%": 10.836369501627049,
+        "costos_%": 8.279999999999998,
+        "neto_%": 2.5563695016270525,
+        "total_%": 8.911925057182609,
+        "neto_anual_%": 1.889164558387147,
+        "vol_anual_%": 7.53269470710262,
+        "sharpe_neto_anual": 0.2507953171931744,
+        "sortino_anual": 0.37602341520578375,
+        "max_drawdown_%": -5.779508824743735,
+        "calmar": 0.32687285644397523,
+        "acierto_direccional_operado": 0.5401459854014599,
+        "acierto_direccional_total": 0.5368731563421829,
+        "acierto_ponderado_exposicion": 0.5401459854014599,
+        "ganancia_media_pb": 59.6113810065893,
+        "perdida_media_pb": -55.72896126633422,
+        "razon_ganancia_perdida": 1.0696661063123105,
+        "n_operaciones": 138,
+        "n_episodios": 69,
+        "jornadas_operadas": 137,
+        "turnover_unidades": 138.0,
+        "dias_fuera_%": 59.82404692082112,
+        "dias_\u00b13_%": 0.0
+      },
+      "comprar_siempre": {
+        "jornadas": 341,
+        "bruto_%": 3.8875596759478825,
+        "con_carry_%": 2.8639763426145466,
+        "costos_%": 0.059999999999999984,
+        "neto_%": 2.803976342614546,
+        "total_%": 9.159531898170103,
+        "neto_anual_%": 2.0721467399966733,
+        "vol_anual_%": 11.823722693137933,
+        "sharpe_neto_anual": 0.17525332704219068,
+        "sortino_anual": 0.2565811502016256,
+        "max_drawdown_%": -14.28273209364532,
+        "calmar": 0.14508055786599916,
+        "acierto_direccional_operado": 0.501466275659824,
+        "acierto_direccional_total": 0.5368731563421829,
+        "acierto_ponderado_exposicion": 0.501466275659824,
+        "ganancia_media_pb": 57.23022412069899,
+        "perdida_media_pb": -55.91747464928278,
+        "razon_ganancia_perdida": 1.0234765514653485,
+        "n_operaciones": 1,
+        "n_episodios": 1,
+        "jornadas_operadas": 341,
+        "turnover_unidades": 1.0,
+        "dias_fuera_%": 0.0,
+        "dias_\u00b13_%": 0.0
+      },
+      "no_operar": {
+        "jornadas": 341,
+        "bruto_%": 0.0,
+        "con_carry_%": 0.0,
+        "costos_%": 0.0,
+        "neto_%": 0.0,
+        "total_%": 6.355555555555556,
+        "neto_anual_%": 0.0,
+        "vol_anual_%": 0.0,
+        "sharpe_neto_anual": 0.0,
+        "sortino_anual": NaN,
+        "max_drawdown_%": 0.0,
+        "calmar": NaN,
+        "acierto_direccional_operado": NaN,
+        "acierto_direccional_total": 0.5368731563421829,
+        "acierto_ponderado_exposicion": NaN,
+        "ganancia_media_pb": NaN,
+        "perdida_media_pb": NaN,
+        "razon_ganancia_perdida": NaN,
+        "n_operaciones": 0,
+        "n_episodios": 0,
+        "jornadas_operadas": 0,
+        "turnover_unidades": 0.0,
+        "dias_fuera_%": 100.0,
+        "dias_\u00b13_%": 0.0
+      },
+      "intensidad_constante": {
+        "jornadas": 341,
+        "bruto_%": 20.731282186486588,
+        "con_carry_%": 20.561476630931036,
+        "costos_%": 16.979999999999997,
+        "neto_%": 3.581476630931041,
+        "total_%": 9.9370321864866,
+        "neto_anual_%": 2.6467217331220594,
+        "vol_anual_%": 11.702703574330659,
+        "sharpe_neto_anual": 0.22616327212863202,
+        "sortino_anual": 0.31687658728365986,
+        "max_drawdown_%": -13.66976482419754,
+        "calmar": 0.19361867355881382,
+        "acierto_direccional_operado": 0.5368731563421829,
+        "acierto_direccional_total": 0.5368731563421829,
+        "acierto_ponderado_exposicion": 0.5368731563421829,
+        "ganancia_media_pb": 56.5731875703474,
+        "perdida_media_pb": -55.38016316331131,
+        "razon_ganancia_perdida": 1.0215424502004078,
+        "n_operaciones": 144,
+        "n_episodios": 3,
+        "jornadas_operadas": 339,
+        "turnover_unidades": 283.0,
+        "dias_fuera_%": 0.5865102639296188,
+        "dias_\u00b13_%": 0.0
+      }
+    },
+    "DM": {
+      "comprar_siempre": {
+        "T": 341,
+        "media_dif": 7.261197682917786e-06,
+        "DM": 0.025134119970932175,
+        "DM_HLN": 0.025097239364167575,
+        "p_valor": 0.9799921254001185,
+        "lags": 5
+      },
+      "no_operar": {
+        "T": 341,
+        "media_dif": -7.496684755504553e-05,
+        "DM": -0.36458145954232896,
+        "DM_HLN": -0.3640464901278997,
+        "p_valor": 0.716049576208484,
+        "lags": 5
+      },
+      "intensidad_constante": {
+        "T": 341,
+        "media_dif": 3.0061792648210725e-05,
+        "DM": 0.10285951517288039,
+        "DM_HLN": 0.10270858403483077,
+        "p_valor": 0.918254810467606,
+        "lags": 5
+      }
+    },
+    "bootstrap": {
+      "comprar_siempre": {
+        "observado_%": -0.24760684098749652,
+        "ic95_%": [
+          -19.51780040929396,
+          18.168356248619755
+        ],
+        "p_mayor_que_0": 0.4972,
+        "B": 5000,
+        "bloque_medio": 10
+      },
+      "no_operar": {
+        "observado_%": 2.5563695016270525,
+        "ic95_%": [
+          -9.6263484420977,
+          14.605308702654582
+        ],
+        "p_mayor_que_0": 0.6584,
+        "B": 5000,
+        "bloque_medio": 10
+      },
+      "intensidad_constante": {
+        "observado_%": -1.0251071293039857,
+        "ic95_%": [
+          -20.078185428375416,
+          18.51926596429402
+        ],
+        "p_mayor_que_0": 0.4574,
+        "B": 5000,
+        "bloque_medio": 10
+      }
+    },
+    "sensibilidad_costos": [
+      {
+        "costo_pb": 0,
+        "neto_%": 10.84,
+        "neto_anual_%": 8.01,
+        "sharpe": 1.06,
+        "max_dd_%": -4.24
+      },
+      {
+        "costo_pb": 2,
+        "neto_%": 8.08,
+        "neto_anual_%": 5.97,
+        "sharpe": 0.79,
+        "max_dd_%": -4.48
+      },
+      {
+        "costo_pb": 5,
+        "neto_%": 3.94,
+        "neto_anual_%": 2.91,
+        "sharpe": 0.39,
+        "max_dd_%": -5.22
+      },
+      {
+        "costo_pb": 6,
+        "neto_%": 2.56,
+        "neto_anual_%": 1.89,
+        "sharpe": 0.25,
+        "max_dd_%": -5.78
+      },
+      {
+        "costo_pb": 7,
+        "neto_%": 1.18,
+        "neto_anual_%": 0.87,
+        "sharpe": 0.12,
+        "max_dd_%": -6.34
+      },
+      {
+        "costo_pb": 10,
+        "neto_%": -2.96,
+        "neto_anual_%": -2.19,
+        "sharpe": -0.29,
+        "max_dd_%": -8.39
+      }
+    ],
+    "posiciones": {
+      "0": 204,
+      "1": 137
+    }
+  },
+  "sensibilidad_parametros": [
+    {
+      "margen": 1.0,
+      "t_min": 1.5,
+      "tramo": "val",
+      "neto_%": 29.03,
+      "sharpe": 0.45,
+      "dd_%": -13.87,
+      "fuera_%": 89.1,
+      "turnover": 311.0
+    },
+    {
+      "margen": 1.0,
+      "t_min": 1.5,
+      "tramo": "final",
+      "neto_%": 2.56,
+      "sharpe": 0.25,
+      "dd_%": -5.78,
+      "fuera_%": 59.8,
+      "turnover": 138.0
+    },
+    {
+      "margen": 1.25,
+      "t_min": 1.5,
+      "tramo": "val",
+      "neto_%": 29.03,
+      "sharpe": 0.45,
+      "dd_%": -13.87,
+      "fuera_%": 89.1,
+      "turnover": 311.0
+    },
+    {
+      "margen": 1.25,
+      "t_min": 1.5,
+      "tramo": "final",
+      "neto_%": 2.56,
+      "sharpe": 0.25,
+      "dd_%": -5.78,
+      "fuera_%": 59.8,
+      "turnover": 138.0
+    },
+    {
+      "margen": 1.5,
+      "t_min": 1.5,
+      "tramo": "val",
+      "neto_%": -3.54,
+      "sharpe": -0.11,
+      "dd_%": -9.64,
+      "fuera_%": 95.2,
+      "turnover": 135.0
+    },
+    {
+      "margen": 1.5,
+      "t_min": 1.5,
+      "tramo": "final",
+      "neto_%": 2.56,
+      "sharpe": 0.25,
+      "dd_%": -5.78,
+      "fuera_%": 59.8,
+      "turnover": 138.0
+    },
+    {
+      "margen": 1.0,
+      "t_min": 2.0,
+      "tramo": "val",
+      "neto_%": 29.03,
+      "sharpe": 0.45,
+      "dd_%": -13.87,
+      "fuera_%": 89.1,
+      "turnover": 311.0
+    },
+    {
+      "margen": 1.0,
+      "t_min": 2.0,
+      "tramo": "final",
+      "neto_%": 2.56,
+      "sharpe": 0.25,
+      "dd_%": -5.78,
+      "fuera_%": 59.8,
+      "turnover": 138.0
+    },
+    {
+      "margen": 1.25,
+      "t_min": 2.0,
+      "tramo": "val",
+      "neto_%": 29.03,
+      "sharpe": 0.45,
+      "dd_%": -13.87,
+      "fuera_%": 89.1,
+      "turnover": 311.0
+    },
+    {
+      "margen": 1.25,
+      "t_min": 2.0,
+      "tramo": "final",
+      "neto_%": 2.56,
+      "sharpe": 0.25,
+      "dd_%": -5.78,
+      "fuera_%": 59.8,
+      "turnover": 138.0
+    },
+    {
+      "margen": 1.5,
+      "t_min": 2.0,
+      "tramo": "val",
+      "neto_%": -3.54,
+      "sharpe": -0.11,
+      "dd_%": -9.64,
+      "fuera_%": 95.2,
+      "turnover": 135.0
+    },
+    {
+      "margen": 1.5,
+      "t_min": 2.0,
+      "tramo": "final",
+      "neto_%": 2.56,
+      "sharpe": 0.25,
+      "dd_%": -5.78,
+      "fuera_%": 59.8,
+      "turnover": 138.0
+    },
+    {
+      "margen": 1.0,
+      "t_min": 2.5,
+      "tramo": "val",
+      "neto_%": 13.25,
+      "sharpe": 0.32,
+      "dd_%": -8.59,
+      "fuera_%": 92.5,
+      "turnover": 213.0
+    },
+    {
+      "margen": 1.0,
+      "t_min": 2.5,
+      "tramo": "final",
+      "neto_%": 2.56,
+      "sharpe": 0.25,
+      "dd_%": -5.78,
+      "fuera_%": 59.8,
+      "turnover": 138.0
+    },
+    {
+      "margen": 1.25,
+      "t_min": 2.5,
+      "tramo": "val",
+      "neto_%": 13.25,
+      "sharpe": 0.32,
+      "dd_%": -8.59,
+      "fuera_%": 92.5,
+      "turnover": 213.0
+    },
+    {
+      "margen": 1.25,
+      "t_min": 2.5,
+      "tramo": "final",
+      "neto_%": 2.56,
+      "sharpe": 0.25,
+      "dd_%": -5.78,
+      "fuera_%": 59.8,
+      "turnover": 138.0
+    },
+    {
+      "margen": 1.5,
+      "t_min": 2.5,
+      "tramo": "val",
+      "neto_%": -3.54,
+      "sharpe": -0.11,
+      "dd_%": -9.64,
+      "fuera_%": 95.2,
+      "turnover": 135.0
+    },
+    {
+      "margen": 1.5,
+      "t_min": 2.5,
+      "tramo": "final",
+      "neto_%": 2.56,
+      "sharpe": 0.25,
+      "dd_%": -5.78,
+      "fuera_%": 59.8,
+      "turnover": 138.0
+    }
+  ],
+  "lectura_conviccion_final": [
+    {
+      "categoria_prox": "interior",
+      "jornadas": 200,
+      "pos_media": 0.0,
+      "mu_esperado_pb": 0.0,
+      "ret_real_pb": -4.21,
+      "sharpe_esp": 0.0
+    },
+    {
+      "categoria_prox": "lunes",
+      "jornadas": 69,
+      "pos_media": 1.0,
+      "mu_esperado_pb": 9.91,
+      "ret_real_pb": -1.67,
+      "sharpe_esp": 0.13
+    },
+    {
+      "categoria_prox": "post_feriado",
+      "jornadas": 2,
+      "pos_media": 0.0,
+      "mu_esperado_pb": NaN,
+      "ret_real_pb": 0.17,
+      "sharpe_esp": NaN
+    },
+    {
+      "categoria_prox": "pre_finde",
+      "jornadas": 70,
+      "pos_media": 0.97,
+      "mu_esperado_pb": 8.61,
+      "ret_real_pb": 19.23,
+      "sharpe_esp": 0.11
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+k1,k3,jornadas,bruto_%,con_carry_%,neto_%,total_%,neto_anual_%,sharpe_neto_anual,sortino_anual,max_drawdown_%,calmar,acierto_direccional_operado,acierto_direccional_total,acierto_ponderado_exposicion,ganancia_media_pb,perdida_media_pb,razon_ganancia_perdida,turnover_unidades,dias_fuera_%,dias_±3_%
+0.05,0.15,1376,78.39,79.167,21.327,51.043,3.906,0.321,0.402,-25.91,0.151,0.546,0.546,0.561,86.538,-77.308,1.119,964.0,58.358,3.852
+0.1,0.25,1376,18.561,18.626,1.226,30.942,0.225,0.048,0.035,-11.517,0.02,0.551,0.551,0.549,70.65,-65.431,1.08,290.0,88.517,0.145
+0.15,0.35,1376,11.368,11.379,7.059,36.775,1.293,0.565,0.217,-2.683,0.482,0.703,0.703,0.703,71.103,-60.814,1.169,72.0,97.311,0.0
