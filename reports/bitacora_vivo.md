@@ -6,4 +6,4 @@ la señal emitida. La posición rige durante la jornada objetivo. Proyección co
 
 | fecha información | jornada objetivo | categoría | prob. alza | ventaja esperada (pb) | posición | comentario |
 |---|---|---|---|---|---|---|
-| 2026-11-12 | 2026-11-13 (vie) | pre_finde | 0,546 | 8,9 pb | 3,4 | +1 |Posición +1 tomada. Señal dependiente solo del calendario y la tabla ya estimada, anotada antes de recibir la base actualizada del laboratorio.*|
+| 2026-11-12 | 2026-11-13 (vie) | pre_finde | | | | |
