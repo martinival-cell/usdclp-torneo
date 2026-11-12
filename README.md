@@ -29,7 +29,7 @@ matplotlib 3.11 (versiones anteriores recientes también funcionan; `requirement
 **1. Clonar el repositorio**
 
 ```bash
-git clone https://github.com/<usuario>/usdclp-torneo.git
+git clone https://github.com/martinival-cell/usdclp-torneo.git
 cd usdclp-torneo
 ```
 
